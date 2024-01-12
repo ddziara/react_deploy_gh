@@ -1,0 +1,15 @@
+On GitHub Pages
+
+Install:
+
+  npm i gh-pages -D
+
+In package.json add:
+
+  "homepage": "https://ddziara.github.io/react_deploy_gh",
+
+In "scripts" section add:
+  
+  "predeploy": "npm run build", 
+  "deploy": "gh-pages -d build", 
+
